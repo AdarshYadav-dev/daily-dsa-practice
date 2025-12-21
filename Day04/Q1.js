@@ -1,4 +1,4 @@
-// 1. Remove duplicate elements from an array  
+// 1. Remove duplicate elements from an array  ...
 
 
 let arr = [1, 2, 3, 4, 5, 5, 6];
