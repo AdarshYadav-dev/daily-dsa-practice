@@ -1,23 +1,25 @@
 // 1. Remove duplicate elements from an array  ...
 
 
-let arr = [1, 2, 3, 4, 5, 5, 6];
+
+let arr = [1,2,3,4,5,3];
 
 let result = [];
 
-for (let i = 0; i < arr.length; i++) {
+for(let i = 0; i <= arr.length; i++){
     let isDublicate = false;
 
-    for (let j = 0; j < result.length; j++) {
-        if (arr[i] === result[j]) {
-             isDublicate = true;
+    for(let j = 0; j <= result.length; j++){
+        if(arr[i] == result[j]){
+            isDublicate = true;
             break;
         }
     }
 
-    if (!isDublicate) {
+    if(!isDublicate) {
         result.push(arr[i])
     }
+
 }
 
-console.log(result)
+console.log(result);
